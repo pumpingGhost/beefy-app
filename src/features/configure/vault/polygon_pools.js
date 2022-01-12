@@ -55,7 +55,7 @@ export const polygonPools = [
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
-      'MCAP_MICRO',
+      'MCAP_LOW',
       'IL_HIGH',
       'PLATFORM_ESTABLISHED',
       'AUDIT',
