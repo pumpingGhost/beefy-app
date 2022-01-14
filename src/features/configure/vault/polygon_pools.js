@@ -63,6 +63,8 @@ export const polygonPools = [
     ],
     stratType: 'StratMultiLP',
     withdrawalFee: '0%',
+    buyTokenUrl:
+      'https://quickswap.exchange/#/swap?inputCurrency=0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270&outputCurrency=0x42d61D766B85431666B39B89C43011f24451bFf6',
     addLiquidityUrl:
       'https://quickswap.exchange/#/add/0x42d61D766B85431666B39B89C43011f24451bFf6/ETH',
   },
