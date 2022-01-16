@@ -102,6 +102,41 @@ export const bscPools = [
   },
 
   {
+    id: 'mdex-lac-busd',
+    name: 'LAC-BUSD LP',
+    token: 'LAC-BUSD LP',
+    tokenDescription: 'Mdex',
+    tokenAddress: '0xa269E050DD2262E7BdC8A481D76880A562dD1d5E',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooMdexLAC-BUSD',
+    earnedTokenAddress: '0xa0a2609800F5FfA4b9FaF8286fD44070BeD6931C',
+    earnContractAddress: '0xa0a2609800F5FfA4b9FaF8286fD44070BeD6931C',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'mdex-lac-busd',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Mdex',
+    assets: ['LAC', 'BUSD'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    buyTokenUrl:
+      'https://bsc.mdex.me/#/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0xe6f079E74000a0AFc517c1EFf9624d866d163B75',
+    addLiquidityUrl:
+      'https://bsc.mdex.me/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0xe6f079E74000a0AFc517c1EFf9624d866d163B75',
+  },
+
+  {
     id: 'dibs-dibs-bnb',
     name: 'DIBS-BNB',
     token: 'DIBS-BNB LP',
@@ -2023,7 +2058,7 @@ export const bscPools = [
       'https://pancakeswap.finance/swap?outputCurrency=0xc2098a8938119A52B1F7661893c0153A6CB116d5',
   },
   {
-    id: 'cakev2-mcb-wbnb',
+    id: 'cakev2-mcb-wbnb-eol',
     name: 'MCB-BNB LP',
     token: 'MCB-BNB LP',
     tokenDescription: 'PancakeSwap',
@@ -2038,8 +2073,9 @@ export const bscPools = [
     oracle: 'lps',
     oracleId: 'cakev2-mcb-wbnb',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'PancakeSwap',
     assets: ['MCB', 'BNB'],
     risks: [
@@ -2679,7 +2715,7 @@ export const bscPools = [
       'https://app.apeswap.finance/swap?outputCurrency=0x3Fcca8648651E5b974DD6d3e50F61567779772A8',
   },
   {
-    id: 'cakev2-pots-busd',
+    id: 'cakev2-pots-busd-eol',
     name: 'POTS-BUSD LP',
     token: 'POTS-BUSD LP2',
     tokenDescription: 'PancakeSwap',
@@ -2694,8 +2730,9 @@ export const bscPools = [
     oracle: 'lps',
     oracleId: 'cakev2-pots-busd',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'PancakeSwap',
     assets: ['POTS', 'BUSD'],
     risks: [
@@ -2714,7 +2751,7 @@ export const bscPools = [
       'https://pancakeswap.finance/swap?outputCurrency=0x3Fcca8648651E5b974DD6d3e50F61567779772A8',
   },
   {
-    id: 'cakev2-tlos-wbnb',
+    id: 'cakev2-tlos-wbnb-eol',
     name: 'TLOS-BNB LP',
     token: 'TLOS-BNB LP2',
     tokenDescription: 'PancakeSwap',
@@ -2729,8 +2766,9 @@ export const bscPools = [
     oracle: 'lps',
     oracleId: 'cakev2-tlos-wbnb',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'PancakeSwap',
     assets: ['TLOS', 'BNB'],
     addLiquidityUrl:
@@ -7565,7 +7603,7 @@ export const bscPools = [
       'https://pancakeswap.finance/swap?outputCurrency=0x5a16e8ce8ca316407c6e6307095dc9540a8d62b3',
   },
   {
-    id: 'cakev2-pmon-busd',
+    id: 'cakev2-pmon-busd-eol',
     logo: 'busd-pairs/PMON-BUSD.svg',
     name: 'PMON-BUSD LP',
     token: 'PMON-BUSD LP2',
@@ -7581,8 +7619,9 @@ export const bscPools = [
     oracle: 'lps',
     oracleId: 'cakev2-pmon-busd',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'PancakeSwap',
     assets: ['PMON', 'BUSD'],
     addLiquidityUrl:
@@ -10051,7 +10090,7 @@ export const bscPools = [
       'https://pancakeswap.finance/swap?inputCurrency=0x039cb485212f996a9dbb85a9a75d898f94d38da6&outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
   },
   {
-    id: 'cakev2-tpt-busd',
+    id: 'cakev2-tpt-busd-eol',
     logo: 'busd-pairs/TPT-BUSD.svg',
     name: 'TPT-BUSD LP',
     token: 'TPT-BUSD LP2',
@@ -10067,8 +10106,9 @@ export const bscPools = [
     oracle: 'lps',
     oracleId: 'cakev2-tpt-busd',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'PancakeSwap',
     assets: ['TPT', 'BUSD'],
     addLiquidityUrl:
@@ -16616,7 +16656,7 @@ export const bscPools = [
   // Narwhal
 
   {
-    id: 'narwhal-gold-bnb',
+    id: 'narwhal-gold-bnb-eol',
     logo: 'bnb-pairs/GOLD-BNB.png',
     name: 'GOLD-BNB NLP',
     token: 'GOLD-BNB NLP',
@@ -16632,8 +16672,9 @@ export const bscPools = [
     oracle: 'lps',
     oracleId: 'narwhal-gold-bnb',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    retireReason: 'rewards',
+    status: 'eol',
     platform: 'Other',
     assets: ['GOLD', 'BNB'],
     addLiquidityUrl:
