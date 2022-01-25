@@ -71,6 +71,7 @@ export const fantomPools = [
     name: 'OXD',
     token: 'OXD',
     tokenDescription: '0xDAO',
+    tokenAddress: '0xFFdc0531288dc91C1F49Db03A90Ed84725E9eDa7',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'mooOXD',
