@@ -73,7 +73,7 @@ export const fantomPools = [
     tokenDescription: '0xDAO',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
-    earnedToken: 'mooOXDxBOO',
+    earnedToken: 'mooOXD',
     earnedTokenAddress: '0x59a7e9F6B369aA88A7EABfbc43D3EF72DEf4bd81',
     earnContractAddress: '0x59a7e9F6B369aA88A7EABfbc43D3EF72DEf4bd81',
     pricePerFullShare: 1,
