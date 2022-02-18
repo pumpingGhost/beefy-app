@@ -102,7 +102,7 @@ export const avalanchePools = [
       'https://app.pangolin.exchange/#/add/AVAX/0xfcc6CE74f4cd7eDEF0C5429bB99d38A3608043a5',
     buyTokenUrl:
       'https://app.pangolin.exchange/#/swap?outputCurrency=0xfcc6CE74f4cd7eDEF0C5429bB99d38A3608043a5',
-    createdAt: 1645196496,
+    createdAt: 1645197575,
   },
   {
     id: 'joe-wavax-savax',
