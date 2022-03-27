@@ -173,7 +173,7 @@ export const fusePools = [
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://app.voltage.finance/index.html#/add/fuse/0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
+      'https://app.voltage.finance/index.html#/add/fuse/0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73/',
     buyTokenUrl:
       'https://app.voltage.finance/index.html#/swap?outputCurrency=0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
     createdAt: 1648139080,
