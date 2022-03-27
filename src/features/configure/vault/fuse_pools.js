@@ -65,9 +65,9 @@ export const fusePools = [
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://app-v1.voltage.finance/#/add/FUSE/0x5DD8015cec49F4dB01fd228F688BF30337d3e0A9',
+      'https://app-v1.voltage.finance/#/add/fuse/0x5DD8015cec49F4dB01fd228F688BF30337d3e0A9',
     buyTokenUrl:
-      'https://app.fuse.fi/#/swap?inputCurrency=FUSE&outputCurrency=0x5DD8015cec49F4dB01fd228F688BF30337d3e0A9',
+      'https://app.fuse.fi/#/swap?outputCurrency=0x5DD8015cec49F4dB01fd228F688BF30337d3e0A9',
     createdAt: 1644603605,
   },
   {
@@ -103,7 +103,7 @@ export const fusePools = [
     stratType: 'SingleStake',
     addLiquidityUrl: 'https://app.voltage.finance/#/stake',
     buyTokenUrl:
-      'https://app.voltage.finance/index.html#/swap?inputCurrency=0x0BE9e53fd7EDaC9F859882AfdDa116645287C629&outputCurrency=0x34Ef2Cc892a88415e9f02b91BfA9c91fC0bE6bD4',
+      'https://app.voltage.finance/index.html#/swap?outputCurrency=0x34Ef2Cc892a88415e9f02b91BfA9c91fC0bE6bD4',
     createdAt: 1648154045,
   },
   {
@@ -173,9 +173,9 @@ export const fusePools = [
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://app.voltage.finance/index.html#/add/0x0BE9e53fd7EDaC9F859882AfdDa116645287C629/0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
+      'https://app.voltage.finance/index.html#/add/fuse/0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
     buyTokenUrl:
-      'https://app.voltage.finance/index.html#/swap?inputCurrency=0x0BE9e53fd7EDaC9F859882AfdDa116645287C629&outputCurrency=0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
+      'https://app.voltage.finance/index.html#/swap?outputCurrency=0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
     createdAt: 1648139080,
   },
   {
@@ -281,9 +281,9 @@ export const fusePools = [
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://app.voltage.finance/index.html#/add/0x0BE9e53fd7EDaC9F859882AfdDa116645287C629/0xa722c13135930332Eb3d749B2F0906559D2C5b99',
+      'https://app.voltage.finance/index.html#/add/fuse/0xa722c13135930332Eb3d749B2F0906559D2C5b99',
     buyTokenUrl:
-      'https://app.voltage.finance/index.html#/swap?inputCurrency=0x0BE9e53fd7EDaC9F859882AfdDa116645287C629&outputCurrency=0xa722c13135930332Eb3d749B2F0906559D2C5b99',
+      'https://app.voltage.finance/index.html#/swap?outputCurrency=0xa722c13135930332Eb3d749B2F0906559D2C5b99',
     createdAt: 1647458875,
   },
   {
@@ -317,9 +317,9 @@ export const fusePools = [
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://app.voltage.finance/index.html#/add/0x0BE9e53fd7EDaC9F859882AfdDa116645287C629/0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5',
+      'https://app.voltage.finance/index.html#/add/fuse/0x6a5F6A8121592BeCd6747a38d67451B310F7f156',
     buyTokenUrl:
-      'https://app.voltage.finance/index.html#/swap?inputCurrency=0x0BE9e53fd7EDaC9F859882AfdDa116645287C629&outputCurrency=0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5',
+      'https://app.voltage.finance/index.html#/swap?outputCurrency=0x6a5F6A8121592BeCd6747a38d67451B310F7f156',
     createdAt: 1647505250,
   },
   {
@@ -353,9 +353,9 @@ export const fusePools = [
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://app.voltage.finance/index.html#/add/0x0BE9e53fd7EDaC9F859882AfdDa116645287C629/0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5',
+      'https://app.voltage.finance/index.html#/add/fuse/0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5',
     buyTokenUrl:
-      'https://app.voltage.finance/index.html#/swap?inputCurrency=0x0BE9e53fd7EDaC9F859882AfdDa116645287C629&outputCurrency=0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5',
+      'https://app.voltage.finance/index.html#/swap?outputCurrency=0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5',
     createdAt: 1647505440,
   },
   {
@@ -389,9 +389,9 @@ export const fusePools = [
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://app.voltage.finance/index.html#/add/0x0BE9e53fd7EDaC9F859882AfdDa116645287C629/0x249BE57637D8B013Ad64785404b24aeBaE9B098B',
+      'https://app.voltage.finance/index.html#/add/fuse/0x249BE57637D8B013Ad64785404b24aeBaE9B098B',
     buyTokenUrl:
-      'https://app.voltage.finance/index.html#/swap?inputCurrency=0x0BE9e53fd7EDaC9F859882AfdDa116645287C629&outputCurrency=0x249BE57637D8B013Ad64785404b24aeBaE9B098B',
+      'https://app.voltage.finance/index.html#/swap?outputCurrency=0x249BE57637D8B013Ad64785404b24aeBaE9B098B',
     createdAt: 1647505595,
   },
   {
@@ -425,9 +425,9 @@ export const fusePools = [
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://app.voltage.finance/index.html#/add/0x0BE9e53fd7EDaC9F859882AfdDa116645287C629/0x34Ef2Cc892a88415e9f02b91BfA9c91fC0bE6bD4',
+      'https://app.voltage.finance/index.html#/add/fuse/0x34Ef2Cc892a88415e9f02b91BfA9c91fC0bE6bD4',
     buyTokenUrl:
-      'https://app.voltage.finance/index.html#/swap?inputCurrency=0x0BE9e53fd7EDaC9F859882AfdDa116645287C629&outputCurrency=0x34Ef2Cc892a88415e9f02b91BfA9c91fC0bE6bD4',
+      'https://app.voltage.finance/index.html#/swap?outputCurrency=0x34Ef2Cc892a88415e9f02b91BfA9c91fC0bE6bD4',
     createdAt: 1647365195,
   },
   {
@@ -497,9 +497,9 @@ export const fusePools = [
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://app.voltage.finance/index.html#/add/0x0BE9e53fd7EDaC9F859882AfdDa116645287C629/0x0D58a44be3dCA0aB449965dcc2c46932547Fea2f',
+      'https://app.voltage.finance/index.html#/add/fuse/0x0D58a44be3dCA0aB449965dcc2c46932547Fea2f',
     buyTokenUrl:
-      'https://app.voltage.finance/index.html#/swap?inputCurrency=0x0BE9e53fd7EDaC9F859882AfdDa116645287C629&outputCurrency=0x0D58a44be3dCA0aB449965dcc2c46932547Fea2f',
+      'https://app.voltage.finance/index.html#/swap?outputCurrency=0x0D58a44be3dCA0aB449965dcc2c46932547Fea2f',
     createdAt: 1647365195,
   },
   {
@@ -569,9 +569,9 @@ export const fusePools = [
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
-      'https://app.voltage.finance/index.html#/add/0x0BE9e53fd7EDaC9F859882AfdDa116645287C629/0x495d133B938596C9984d462F007B676bDc57eCEC',
+      'https://app.voltage.finance/index.html#/add/fuse/0x495d133B938596C9984d462F007B676bDc57eCEC',
     buyTokenUrl:
-      'https://app.voltage.finance/index.html#/swap?inputCurrency=0x0BE9e53fd7EDaC9F859882AfdDa116645287C629&outputCurrency=0x495d133B938596C9984d462F007B676bDc57eCEC',
+      'https://app.voltage.finance/index.html#/swap?outputCurrency=0x495d133B938596C9984d462F007B676bDc57eCEC',
     createdAt: 1647365540,
   },
   {
