@@ -80,8 +80,8 @@ export const fusePools = [
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'mooVoltagexVOLT',
-    earnedTokenAddress: '0x3FaD6d493CE04ac4eC0828409af4586129f05236',
-    earnContractAddress: '0x3FaD6d493CE04ac4eC0828409af4586129f05236',
+    earnedTokenAddress: '0x49E9d6f4BbD8c51d92f163837fffdb611d705392',
+    earnContractAddress: '0x49E9d6f4BbD8c51d92f163837fffdb611d705392',
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'tokens',
@@ -104,7 +104,7 @@ export const fusePools = [
     addLiquidityUrl: 'https://app.voltage.finance/#/stake',
     buyTokenUrl:
       'https://app.voltage.finance/index.html#/swap?outputCurrency=0x34Ef2Cc892a88415e9f02b91BfA9c91fC0bE6bD4',
-    createdAt: 1648154045,
+    createdAt: 1649322250,
   },
   {
     id: 'sushi-fuse-usdc-usdt',
@@ -115,8 +115,8 @@ export const fusePools = [
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'mooSushiUSDC-USDT',
-    earnedTokenAddress: '0xbf4eEe5951F1a66f72Bde6d3eda119e14e4760CF',
-    earnContractAddress: '0xbf4eEe5951F1a66f72Bde6d3eda119e14e4760CF',
+    earnedTokenAddress: '0x4D3988B5dc8267fB5FE6dB87681aDA8AC6732113',
+    earnContractAddress: '0x4D3988B5dc8267fB5FE6dB87681aDA8AC6732113',
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
@@ -140,7 +140,7 @@ export const fusePools = [
       'https://app.sushi.com/add/0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5/0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10',
     buyTokenUrl:
       'https://app.sushi.com/swap?inputCurrency=0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5&outputCurrency=0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10',
-    createdAt: 1639425275,
+    createdAt: 1649176980,
   },
   {
     id: 'voltagev2-wfuse-ageur',
@@ -151,8 +151,8 @@ export const fusePools = [
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'mooVoltageagEUR-FUSE',
-    earnedTokenAddress: '0x25897E8b65e673Eb27F6246202734a7f744197eB',
-    earnContractAddress: '0x25897E8b65e673Eb27F6246202734a7f744197eB',
+    earnedTokenAddress: '0xfD410441D8727401B9047d9E1cF8b8260Ac10526',
+    earnContractAddress: '0xfD410441D8727401B9047d9E1cF8b8260Ac10526',
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
@@ -176,7 +176,7 @@ export const fusePools = [
       'https://app.voltage.finance/index.html#/add/fuse/0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73/',
     buyTokenUrl:
       'https://app.voltage.finance/index.html#/swap?outputCurrency=0xeFAeeE334F0Fd1712f9a8cc375f427D9Cdd40d73',
-    createdAt: 1648139080,
+    createdAt: 1649336945,
   },
   {
     id: 'voltagev2-fusd-bnb',
