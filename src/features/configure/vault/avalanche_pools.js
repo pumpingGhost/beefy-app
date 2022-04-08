@@ -89,7 +89,7 @@ export const avalanchePools = [
     depositsPaused: false,
     status: 'active',
     platform: 'Trader Joe',
-    assets: ['UST', 'AVAX'],
+    assets: ['USTw', 'AVAX'],
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
