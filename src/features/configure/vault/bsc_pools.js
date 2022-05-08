@@ -88,7 +88,14 @@ export const bscPools = [
     status: 'active',
     platform: 'PancakeSwap',
     assets: ['GAL', 'BNB'],
-    risks: ['COMPLEXITY_LOW', 'BATTLE_TESTED', 'MCAP_MEDIUM', 'AUDIT', 'CONTRACTS_VERIFIED'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_MICRO',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
     stratType: 'StratLP',
     addLiquidityUrl:
       'https://pancakeswap.finance/add/BNB/0xe4Cc45Bb5DBDA06dB6183E8bf016569f40497Aa5',
